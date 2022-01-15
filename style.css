@@ -9,7 +9,7 @@ body{
     display:flex;
     width: 100%;
     padding-left: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .text-container{
     text-align: justify;
@@ -145,4 +145,45 @@ body{
      text-transform: uppercase;
      opacity: .4;
      font-weight: 200;
+ }
+ /* navigation bar style */
+ *{
+     padding: 0;
+     padding-left: 10px;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+ }
+ nav{
+     background: rgb(240, 238, 234);
+     height: 80px;
+     width: 100%;
+ }
+ label.logo{
+     color: rgb(37, 36, 36);
+     font-size: 35px;
+     line-height: 80px;
+     padding: 0 100px;
+     font-weight: bold;
+ }
+ nav ul{
+     float: right;
+     margin-right: 20px;
+ }
+ nav ul li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+ }
+ nav ul li a{
+     color:black;
+     font-size: 17px;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+ }
+ a.active,a:hover{
+     background: #1b9bff;
+     transition: 5s;
  }

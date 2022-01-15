@@ -37,9 +37,6 @@ body{
     /* display:grid; */
     /* grid-template-rows:repeat(3,1fr); */
 }
-.card-container{
-    /* height: 600px; */
-}
 .test{
     display: grid;
     grid-template-columns: repeat(3,1fr);

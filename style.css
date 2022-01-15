@@ -26,3 +26,24 @@ body{
     font-weight: 700px;
     border-radius: 15px;
 }
+/* items styles */
+#border-title{
+    text-align: center;
+}
+.selling-items,items img{
+    width: 224px;
+    height: 104px;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.info{
+    display: flex;
+}
